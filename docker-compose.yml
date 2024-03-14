@@ -8,6 +8,6 @@ services:
     image: mailhog/mailhog:latest
     ports: [ 1025:1025, 8025:8025 ]
   discourse:
-    container_name: selfhosted-docker
+    container_name: selfhosted-discourse
     build: ./discourse
     ports: [ 3000:3000, 4200:4200 ]
